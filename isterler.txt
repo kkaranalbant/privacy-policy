@@ -1,0 +1,77 @@
+Proje yapacak olanlar tasarladıkları projelerde aşağıdaki özellikleri uygulamalıdırlar. Proje grubunda yer alan kişiler bu özelliklerden en az 2 tanesini gerçekleştirmelidir. Grup 2 kişiden oluşuyorsa tam puan alabilmek için her kişi en az 5 özellik gerçekleştirmelidir. Proje konusu seçimi ve ilgili özelliğin uygulanma (yazılım dili vb.) şekli serbesttir.
+
+Aşağıda bağlantısı bulunan belgeyi doldurup teslim zamanında e-destek sistemi üzerinden gönderilmelidir. Bu formda projenizi amacını ve işlevlerinin kısa özetini yazınız. Talep edilen özelliklerin projeniz içerisinde nasıl uygulandığını kısaca açıklayınız. Proje reposuna github üzerinden “uguryildiz” kullanıcısı “admin” yetkisiyle  “collaborator” olarak eklenmelidir.
+
+https://docs.google.com/document/d/1UkVIiV8hS8yHd-cdbM7gJ6y2noCMhfo2QzW0nRM0bVI/edit?usp=sharing
+
+Projenin kurulumunda ve kullanımında gerekli bilgiler README.MD dosyasında yazılmalıdır. README.MD  dosyasında ilgili özelliğin sorumlusunu ve çalıştığı branchi yazınız.  
+
+No
+Feature
+Branch Name
+1
+Storage / Basic Data
+storage-basic
+2
+Local Database (Room / CoreData)
+local-database
+3
+RESTFul API (CRUD)
+restful-api
+4
+UI (Compose / SwiftUI)
+ui
+5
+Background Process / Task
+background-process-task
+6
+Broadcast Receiver / NSNotificationCenter
+broadcast-receiver-notification-center
+7
+Sensor (Motion / Location / Environment)
+sensor
+8
+Connectivity (BLE / Wifi / USB / NFC)
+connectivity
+9
+Authorization (OAuth / OpenID / JWT)
+authorization
+10
+Cloud Service (AI)
+cloud-service
+
+
+
+Proje Geliştirmede Uyulacak Kurallar
+
+Proje reposunda main ve main reposundan çoğaltılan develop isimli 2 branch oluşturulacaktır. 
+Projelerdeki her özellik develop branchinden çoğaltılan (branch tablodaki branch name kullanılacaktır) özelliğe ait branch de geliştirilecektir. 
+Geliştirilen özelliğin çalışan her aşaması ilgili branche ayrı commitler ile gönderilip her aşamanın sonunda ekip liderine develop branch ine merge etmek üzere PR (Pull Request) atılacaktır. 
+En sonunda ekip lideri tüm kodları birleştirerek (PR ları çakışma varsa düzenleyip birleştirerek (merge) main branch de çalışır hale getirecektir.
+Projenin kurulumunda ve kullanımında (IDE konfigurasyonu, IOS veya Android build oluşturmak için)  gerekli bilgiler README.MD dosyasında yazılmalıdır. 
+Projedeki her bir branch toplamda 3 farklı zamanda (1 er haftalık aralıklarla) develop branchine PR açılarak 5 Aralık 2025 / 26 Aralık 2025 tarihleri arasında geliştirilmiş olmalıdır. 
+27 Aralık 2025 tarihinde proje teslimleri yapılmalıdır.
+Ekip lideri her haftanın sonunda açılan PR ları develop branch inde birleştirerek main branch ine yeni bir PR açmalıdır. Her PR sonunda geliştirilen özelliklerin açıklamaları README.md dosyasına eklenmelidir.
+
+Bölümlere göre aşağıdaki isterlerin sağlanması beklenmektedir;
+
+Storage / Basic Data: Storage kapsamında app-specific ve shared kullanıma yönelik dosya sistemi üzerine uygulamalar (implementation) barındırmalıdır. Basic Data kapsamında preferences veya proto kullanımına yönelik uygulamalar  (implementation) barındırmalıdır.
+Local Database (Room / CoreData / Document): Kullanılacak platforma göre ilişkisel (room, coredata, sqlite vb.) veya  belge tabanlı (coachdb vb.) birbiriyle ilişkili en az 3 tablo içeren bir veritabanı kullanımına yönelik uygulamalar  (implementation) barındırmalıdır.
+
+
+Proje Özeti:
+Ana İşlevler:
+- Kitap Yönetimi: Kitap ekleme, silme, listeleme, arama, kategorilere göre filtreleme
+- Kullanıcı Yönetimi: Öğrenci ve admin kullanıcı kayıt/giriş işlemleri
+- Güvenlik: JWT tabanlı kimlik doğrulama ve yetkilendirme (Spring Security)
+- Favoriler Sistemi: Öğrencilerin kitapları favorilerine ekleyebilmesi
+- Puanlama ve Yorumlar: Kitaplara 1-5 yıldız puan verme ve yorum yapabilme
+- Kitap Önerisi: AI/ML tabanlı kitap öneri sistemi entegrasyonu
+Özellikler:
+• Presentation Layer: UI Frame
+
+
+
+
+
+
