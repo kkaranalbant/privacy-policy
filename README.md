@@ -1,8 +1,8 @@
-# ğŸ“š Smart Library Application
+# 📚 Smart Library Application
 
 A comprehensive Library Management System featuring a **Kotlin Android** frontend with Jetpack Compose and a **Node.js Express** backend.
 
-## ğŸš€ Features
+## 🚀 Features
 - **User Authentication** - Register/Login with JWT tokens
 - **Book Management** - Browse, add, and manage books
 - **Favorites System** - Save books to your personal favorites
@@ -11,7 +11,7 @@ A comprehensive Library Management System featuring a **Kotlin Android** fronten
 - **Offline Support** - Local database synchronization
 - **Dependency Injection** - Clean architecture with DI patterns
 
-## ğŸ› ï¸ Tech Stack
+## 🛠️ Tech Stack
 
 ### Android Frontend
 | Technology | Purpose |
@@ -30,7 +30,7 @@ A comprehensive Library Management System featuring a **Kotlin Android** fronten
 | SQLite | Database |
 | JWT | Authentication |
 
-## ğŸ“¦ Getting Started
+## 📦 Getting Started
 
 ### Prerequisites
 - [Node.js](https://nodejs.org/) (v18+)
@@ -53,18 +53,18 @@ node server.js
    - Real device: `http://YOUR_IP:3000/`
 4. Run the app
 
-### ğŸ”‘ Admin Credentials
+### 🔑 Admin Credentials
 - **Email:** `admin@library.com`
 - **Password:** `admin123`
 
-## ğŸ“‚ Project Structure
+## 📂 Project Structure
 ```
-â”œâ”€â”€ app/                  # Android application
-â”‚   â”œâ”€â”€ src/main/java/    # Kotlin source code
-â”‚   â””â”€â”€ src/main/res/     # Resources & layouts
-â”œâ”€â”€ backend/              # Node.js Express server
-â”‚   â”œâ”€â”€ server.js         # Main server file
-â”‚   â””â”€â”€ package.json      # Dependencies
-â”œâ”€â”€ build.gradle.kts      # Project-level Gradle config
-â””â”€â”€ settings.gradle.kts   # Settings
+├── app/                  # Android application
+│   ├── src/main/java/    # Kotlin source code
+│   └── src/main/res/     # Resources & layouts
+├── backend/              # Node.js Express server
+│   ├── server.js         # Main server file
+│   └── package.json      # Dependencies
+├── build.gradle.kts      # Project-level Gradle config
+└── settings.gradle.kts   # Settings
 ```
