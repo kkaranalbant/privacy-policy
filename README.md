@@ -57,6 +57,14 @@ node server.js
 - **Email:** `admin@library.com`
 - **Password:** `admin123`
 
+## 🧪 Testing
+The Android application includes unit tests written in Kotlin using JUnit and MockK.
+- **Run Unit Tests:** Open the `app/src/test` directory in Android Studio and run the tests, or execute the following Gradle command in the terminal:
+  ```bash
+  ./gradlew testDebugUnitTest
+  ```
+- **Test Coverage:** Tests cover key ViewModels, Repositories, and Utility classes to ensure data integrity and business logic correctness.
+
 ## 📂 Project Structure
 ```
 ├── app/                  # Android application
